@@ -1,1 +1,9 @@
 /env_api_pyth3/
+/.pytest_cache/
+/venv/
+/tests/.pytest_cache/
+/.idea/
+/__pycache__/
+/report/
+.pyc
+*.pyc
