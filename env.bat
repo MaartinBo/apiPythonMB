@@ -1,9 +1,9 @@
 
-export Machine=machine1
-export WP_host=mamp
+set MACHINE=machine1
+set WP_HOST=mamp
 
-export WC_KEY=ck_yourKEY
-export WC_SECRET=cs_yourKEY
+set WC_KEY=ck_yourKEY
+set WC_SECRET=cs_yourKEY
 
-export DB_USER=yourUser
-export DB_PASSWORD=yourPassword
+set DB_USER=yourUser
+set DB_PASSWORD=yourPassword

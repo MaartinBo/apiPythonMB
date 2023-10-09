@@ -1,9 +1,9 @@
 
-set MACHINE=docker
-set WP_HOST=mamp
+export Machine=docker
+export WP_host=mamp
 
-set WC_KEY=ck_yourKEY
-set WC_SECRET=cs_yourKEY
+export WC_KEY=ck_yourKEY
+export WC_SECRET=cs_yourKEY
 
-set DB_USER=yourUser
-set DB_PASSWORD=yourPassword
+export DB_USER=yourUser
+export DB_PASSWORD=yourPassword

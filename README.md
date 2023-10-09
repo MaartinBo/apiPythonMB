@@ -39,23 +39,27 @@ SELECT * FROM testsite.wp_posts;
 
 ### 4. Fill the configuration files with your site/db info and install packages:
 
-env.bat or env.sh depends on your system/terminal
+`env.bat` or `env.sh` depends on your system/terminal
 
 and
 
-mbtest\src\configs\host_config.py  
+`mbtest\src\configs\host_config.py ` 
 
 Then after that you need to install packages through the command:
 
-python setup.py install
+`python setup.py install`
 
 ### 5. Launch tests
 
-Launch test through the command, for example:
+Last step before launch you need to set your env variables by command:
 
-pytest
+`source env.sh` or `.\env.bat` depends on your system/terminal.
 
-pytest -m smoke
+Then launch test through the command, for example:
 
-pytest -m orders
+`pytest`
+
+`pytest -m smoke`
+
+`pytest -m orders`
 
