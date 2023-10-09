@@ -4,6 +4,7 @@
 /tests/.pytest_cache/
 /.idea/
 /__pycache__/
+/customers
 /report/
 .pyc
 *.pyc
