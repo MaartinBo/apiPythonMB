@@ -1,0 +1,27 @@
+Test Case Id,Test Case Name,Code exists
+BACK-END,,
+,,
+Products API,,
+P2,Verify 'GET /products' does not return empty,TRUE
+P3,Verify 'products/id' returns a product with the given id,TRUE
+P1,Verify 'POST /products' creates a simple product,TRUE
+P4,Verify  'List Products' with filter 'after',TRUE
+,,
+Order API,,
+O1,Create a 'paid' order with 'guest' customer,TRUE
+O2,Create a 'paid' order with 'new created' customer,TRUE
+O3,Update order status to 'canceled',TRUE
+O4,Update order status to 'completed,TRUE
+O5,Update order status to 'on-hold',TRUE
+O6,Update order status to random string,TRUE
+O7,Update order 'customer_note',TRUE
+O8,Order with 50% off coupon should reduce total by 50%,FALSE
+,,
+'Customers’ API,,
+C1,Verify 'POST /customers' creates user with email and password only,TRUE
+C3,Verify 'GET /customers' lists all users,TRUE
+C2,Veiry 'create customer' failes if email exists,TRUE
+,,
+Coupon API,,
+CO1,Verify 'POST /coupons' creates a new coupon with 'discount_type=percent',FALSE
+CO2,Verify 'POST /coupons' creates a new coupon with 'discount_type=fixed_cart',FALSE
