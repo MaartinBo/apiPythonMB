@@ -104,12 +104,10 @@ make sure the `mbtest\src\configs\host_config.py ` contains `'docker': {
 
 Then:
 
-1. Build the docker image by using: `docker build -t mbtest_api_python .` in the terminal
+1. Build the Docker image using the command: `docker build -t mbtest_api_python .`.
 
+2. Run the startup script with all variables by executing either `bash run_in_docker.sh` or `.\run_in_docker.bat`, depends on your system/terminal.
 
-2. Use command  to run the container `docker run -it mbtest_api_python /bin/bash` 
+3. You can find the report in `mbtest/reports` folder.
 
-    If you are using gitbash you propably need to use that command: 
-`winpty docker run -it mbtest_api_python /bin/bash`
-
-docker ps - show all containers
+4. Enjoy if you've made it this far :) Any feedback is welcome :)
