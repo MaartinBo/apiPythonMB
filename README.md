@@ -24,7 +24,7 @@ in [this documentation](https://github.com/MaartinBo/docLocalWpSite).
 Change your WordPress address and site address URLs to your local IP address on `yoursite/wp-admin/options-general.php`
 You can find your local IP address [here](https://www.avast.com/c-how-to-find-ip-address).
 I recommend using the following format for your site URL: `http://yourInternaliIp:port/site`, for
-example: `http://192.158.1.38:3336/testsite`. This setup will help you with API authorization.
+example: `http://192.158.1.38:3336/testsite`. This setup will help you with API authorization and docker connection.
 
 ### 3. Verify Everything Works as Expected
 
@@ -70,9 +70,11 @@ Then you need to also fill the configuration on this file:
 
 `mbtest\src\configs\host_config.py `
 
-After that you need to install packages through the command:
+After that, you need to install packages through the command. I recommend using this:
 
-`python setup.py install`
+`pip install -e .`
+
+This will install the package in "editable" mode, allowing you to make changes to the code, if necessary.
 
 ### 5. Launch tests
 
