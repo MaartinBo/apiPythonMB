@@ -6,7 +6,7 @@ setup(name="mbtest",
       packages=find_packages(),
       zip_safe=False,
       install_requires=[
-          "PyMySQL==1.1.0",
+          "PyMySQL==1.1.1",
           "pytest==7.4.2",
           "pytest-html==4.0.2",
           "pytest-metadata==3.0.0",
